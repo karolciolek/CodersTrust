@@ -34,12 +34,12 @@ body {
     left: 10px;
 }
 
-#biale {
+#white_p {
     font-size: 35px;
     color: rgba(241,242,133,0.6);
 }
 
-#czerwone {
+#red_p {
     font-size: 35px;
     color: #600201;
 }
@@ -112,7 +112,7 @@ body {
     background: rgba(225,125,125,0.4); 
 }
 
-.wina {
+.wines_menu {
     font-size: 15px;
 }
 
@@ -125,7 +125,7 @@ ul h2 {
     width: 655px;
     height: 100%;
     padding-left: 15px;
-    letter-spacing: 1;
+    letter-spacing: 1px;
     color: black;
     border-left: 5px solid #660033;
 }
@@ -137,24 +137,24 @@ ul h2 {
     text-align: justify;    
 }
 
-#pierwsza {
+p#first_letter::first-letter {
     font-size: 200%;
 }
 
-#butelki_polka {
+#bottles_shelf {
     border: 1px solid white;
     float: right;
     margin: 9px 0px 9px 9px;
 }
 
-#korki {
+#plugs {
     border: 1px solid white;
     float: left;
     margin: 0px 9px 0px 0px;
     
 }
 
-#lezakowanie {
+#mature {
     border: 1px solid white;
     float: left;
     margin: 0px 9px 0px 0px;
@@ -167,7 +167,7 @@ ul h2 {
     border: 1px solid black;
 }
 
-#scianka {
+#wall {
     border: 1px solid white;
     float: left;
     margin: 0px 9px 0px 0px;
@@ -194,43 +194,44 @@ th {
     background: rgba(225,125,125,0.8);
 }
 
-.tabelka {
+.dry {
     vertical-align: top;   
     background: rgba(225,125,125,0.4);
 }
 
-.rozowe {
+.pink {
     background: rgba(225,125,125,0.8);
 }
 
-.roz {
+.rose {
     background: rgba(225,125,125,0.4);
 }
 
-#gora a {
+#upper a {
     text-decoration: none;
     color: black;
 }
 
-#gora {
-    width: 75px;
+#upper {
+    width: 80px;
  }
 
-#gora a:hover {
+#upper a:hover {
     color: white;
 }
 
-#gora span {
+#upper span {
     font-size: 25px;
     font-weight: 900;
 }
 
-#content p#dol {
+#content p#bottom {
     font-size: 12px;
     font-weight: 600;
+    letter-spacing: 0;
 }
 
-#content p#dol span {
+#content p#bottom span {
     font-style: italic;
 }
 
