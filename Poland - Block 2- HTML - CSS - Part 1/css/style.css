@@ -137,7 +137,7 @@ ul h2 {
     text-align: justify;    
 }
 
-p#first_letter::first-letter {
+p.first_letter::first-letter {
     font-size: 200%;
 }
 
